@@ -25,10 +25,10 @@ function App() {
       }}  
     >
       <label>
-        First Name: <input name="firstName" required/>
+        First Name: <input type="text" name="firstName" required/>
       </label>
       <label>
-        Last Name: <input name="lastName" required/>
+        Last Name: <input type="text" name="lastName" required/>
       </label>
       <button type="submit">Submit</button>
     </form>
